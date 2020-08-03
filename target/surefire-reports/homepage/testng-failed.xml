@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [homepage]">
+  <test thread-count="5" verbose="0" name="homepageTest(failed)">
+    <classes>
+      <class name="com.zeidler.homepage.homepageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addComputer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zeidler.homepage.homepageTest -->
+    </classes>
+  </test> <!-- homepageTest(failed) -->
+</suite> <!-- Failed suite [homepage] -->

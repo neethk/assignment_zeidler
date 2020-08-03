@@ -1,0 +1,30 @@
+2020-08-03 13:36:45 INFO  [main] (BrowserDriverFactory.java:99) - browserchrome
+ 2020-08-03 13:36:45 INFO  [main] (BrowserDriverFactory.java:106) - Create driver: chrome
+ 2020-08-03 13:36:47 INFO  [main] (BrowserDriverFactory.java:131) - Browser version is : 84.0.4147.105
+ 2020-08-03 13:36:47 INFO  [main] (BaseTest.java:75) - Browser resolution:  (1440, 819)
+ 2020-08-03 13:36:47 INFO  [main] (BaseTest.java:77) - Current Screen resolution : w : 1440 h : 900
+ 2020-08-03 13:36:47 INFO  [main] (BaseTest.java:86) - Browser resolution:  (1440, 819)
+ 2020-08-03 13:36:47 INFO  [main] (TestListener.java:75) - [TEST homepageTest STARTED]
+ 2020-08-03 13:36:47 INFO  [main] (homepageTest.java:29) - Starting Test.
+ 2020-08-03 13:36:47 INFO  [main] (homepageTest.java:31) - The env value is: conf
+ 2020-08-03 13:36:49 INFO  [main] (TestListener.java:53) - [Starting addComputer]
+ 2020-08-03 13:36:49 INFO  [main] (homepageTest.java:50) - 6
+ 2020-08-03 13:36:49 INFO  [main] (homepageTest.java:57) - **** Started : add computers ***
+ 2020-08-03 13:36:49 INFO  [main] (homepageTest.java:61) - total number of computers in the system613
+ 2020-08-03 13:36:52 INFO  [main] (HomePage.java:65) - No introduced date
+ 2020-08-03 13:36:52 INFO  [main] (HomePage.java:70) - No discontinued date
+ 2020-08-03 13:36:52 INFO  [main] (HomePage.java:75) - No company name 
+ 2020-08-03 13:36:53 INFO  [main] (HomePage.java:84) - The banner existsComputer name
+Required
+ 2020-08-03 13:36:53 INFO  [main] (TestListener.java:110) - [Test addComputer failed]
+ 2020-08-03 13:36:55 INFO  [main] (homepageTest.java:29) - Starting Test.
+ 2020-08-03 13:36:55 INFO  [main] (homepageTest.java:31) - The env value is: conf
+ 2020-08-03 13:36:55 INFO  [main] (TestListener.java:53) - [Starting editComputer]
+ 2020-08-03 13:36:55 INFO  [main] (TestListener.java:58) - [Test editComputer passed]
+ 2020-08-03 13:36:55 INFO  [main] (homepageTest.java:29) - Starting Test.
+ 2020-08-03 13:36:55 INFO  [main] (homepageTest.java:31) - The env value is: conf
+ 2020-08-03 13:36:55 INFO  [main] (TestListener.java:53) - [Starting searchComputer]
+ 2020-08-03 13:36:55 INFO  [main] (TestListener.java:58) - [Test searchComputer passed]
+ 2020-08-03 13:36:55 INFO  [main] (TestListener.java:80) - [ALL homepageTest FINISHED]
+ 2020-08-03 13:36:55 INFO  [main] (BaseTest.java:115) - Closing final driver.
+ 

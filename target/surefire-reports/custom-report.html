@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Custom Test Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #90EE90}
+.passedeven td {background-color: #90EE90}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #E9C8C8}
+.failedeven td,.stripe .numi_attn {background-color: #E9C8C8}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<center><h3>Cumulative Test Report By SDET - 2020/08/03 13:36:56</h3></center><table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>#Passed</th><th># skipped</th><th># failed</th><th>OS</th><th>Run Time (hh:mm:ss)</th></tr>
+<tr><th colspan="10">homepage</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t" 1"><b>homepageTest</b></a></td><td class="numi" + (isgood ? "" : "_attn") + ""> 2</td><td class="numi" + (isgood ? "" : "_attn") + ""> 0</td><td class="numi" + (isgood ? "" : "_attn") + ""> 1</td><td class="numi" + (isgood ? "" : "_attn") + ""> mac os x</td></td>
+<td class="numi" + (isgood ? "" : "_attn") + ""> 00:00:07</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Exception Info</th><th>Start Time </th><th>Execution Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="5">homepage</th></tr>
+<tr id="t1"><th colspan="5">homepageTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>com.zeidler.homepage.homepageTest</td><td> <a href="#m1"><b>addComputer</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.AssertionError: expected [Done! Computer  has been created] but found [Computer name<br/></td><td style="text-align:right">01:36:49</td><td class="numi">00:00:04</td></tr>
+<tr><th colspan="5">homepageTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.zeidler.homepage.homepageTest</td><td> <a href="#m2"><b>editComputer</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">01:36:55</td><td class="numi">00:00:00</td></tr><tr class="" style + (cq % 2 == 0 ? "odd" : "even") ""><td> <a href="#m3"><b>searchComputer</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">01:36:55</td><td class="numi">00:00:00</td></tr>
+</table>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.851" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="forkCount" value="0"/>
+    <property name="run" value="local"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.util.Arrays.useLegacyMergeSort" value="true"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="suiteXmlFile" value="src/test/resources/homepagetests.xml"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.3 clean test -Denvironment=conf -Dbrowser=chrome -DskipTests=false -Drun=local -DsuiteXmlFile=src/test/resources/homepagetests.xml"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="surefire.test.class.path" value="/Users/neethkunjappa/Documents/zeidler/target/test-classes:/Users/neethkunjappa/Documents/zeidler/target/classes:/Users/neethkunjappa/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/neethkunjappa/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/neethkunjappa/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/neethkunjappa/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/neethkunjappa/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/neethkunjappa/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/neethkunjappa/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/neethkunjappa/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/neethkunjappa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/neethkunjappa/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/neethkunjappa/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/neethkunjappa/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/neethkunjappa/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/neethkunjappa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/neethkunjappa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/neethkunjappa/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/neethkunjappa/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar:/Users/neethkunjappa/.m2/repository/com/opencsv/opencsv/3.3/opencsv-3.3.jar:/Users/neethkunjappa/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/neethkunjappa/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/neethkunjappa/.m2/repository/com/jayway/restassured/json-schema-validator/2.9.0/json-schema-validator-2.9.0.jar:/Users/neethkunjappa/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/neethkunjappa/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/neethkunjappa/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/neethkunjappa/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/neethkunjappa/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/neethkunjappa/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/neethkunjappa/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/neethkunjappa/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/neethkunjappa/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/neethkunjappa/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/neethkunjappa/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/neethkunjappa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/neethkunjappa/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar:/Users/neethkunjappa/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar:/Users/neethkunjappa/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/neethkunjappa/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/neethkunjappa/.m2/repository/com/konghq/unirest-java/2.3.08/unirest-java-2.3.08-standalone.jar:/Users/neethkunjappa/.m2/repository/org/jtwig/jtwig-core/5.87.0.RELEASE/jtwig-core-5.87.0.RELEASE.jar:/Users/neethkunjappa/.m2/repository/org/jtwig/jtwig-reflection/5.87.0.RELEASE/jtwig-reflection-5.87.0.RELEASE.jar:/Users/neethkunjappa/.m2/repository/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7.jar:/Users/neethkunjappa/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar:/Users/neethkunjappa/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/Users/neethkunjappa/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/Users/neethkunjappa/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/Users/neethkunjappa/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/Users/neethkunjappa/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/neethkunjappa/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar:/Users/neethkunjappa/.m2/repository/com/github/detro/ghostdriver/phantomjsdriver/1.1.0/phantomjsdriver-1.1.0.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/selenium-server/2.39.0/selenium-server-2.39.0.jar:/Users/neethkunjappa/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/neethkunjappa/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/neethkunjappa/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/neethkunjappa/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/jetty-repacked/7.6.1/jetty-repacked-7.6.1.jar:/Users/neethkunjappa/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/neethkunjappa/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/neethkunjappa/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/Users/neethkunjappa/.m2/repository/org/aeonbits/owner/owner/1.0.8/owner-1.0.8.jar:/Users/neethkunjappa/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.33.0/htmlunit-driver-2.33.0.jar:/Users/neethkunjappa/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.33/htmlunit-2.33.jar:/Users/neethkunjappa/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/neethkunjappa/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/neethkunjappa/.m2/repository/org/apache/commons/commons-text/1.4/commons-text-1.4.jar:/Users/neethkunjappa/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.33/htmlunit-core-js-2.33.jar:/Users/neethkunjappa/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.33/neko-htmlunit-2.33.jar:/Users/neethkunjappa/.m2/repository/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar:/Users/neethkunjappa/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/neethkunjappa/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.2.0/htmlunit-cssparser-1.2.0.jar:/Users/neethkunjappa/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.12.v20180830/websocket-client-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.12.v20180830/websocket-common-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.12.v20180830/websocket-api-9.4.12.v20180830.jar:/Users/neethkunjappa/.m2/repository/io/qameta/allure/allure-testng/2.12.0/allure-testng-2.12.0.jar:/Users/neethkunjappa/.m2/repository/io/qameta/allure/allure-java-commons/2.12.0/allure-java-commons-2.12.0.jar:/Users/neethkunjappa/.m2/repository/io/qameta/allure/allure-model/2.12.0/allure-model-2.12.0.jar:/Users/neethkunjappa/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/neethkunjappa/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/neethkunjappa/.m2/repository/com/google/api-client/google-api-client/1.30.4/google-api-client-1.30.4.jar:/Users/neethkunjappa/.m2/repository/com/google/oauth-client/google-oauth-client/1.30.3/google-oauth-client-1.30.3.jar:/Users/neethkunjappa/.m2/repository/com/google/http-client/google-http-client/1.32.1/google-http-client-1.32.1.jar:/Users/neethkunjappa/.m2/repository/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/Users/neethkunjappa/.m2/repository/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/Users/neethkunjappa/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/Users/neethkunjappa/.m2/repository/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/Users/neethkunjappa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/neethkunjappa/.m2/repository/com/codepine/api/testrail-api-java-client/2.0.1/testrail-api-java-client-2.0.1.jar:/Users/neethkunjappa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.1/jackson-databind-2.3.1.jar:/Users/neethkunjappa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar:/Users/neethkunjappa/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/neethkunjappa/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/neethkunjappa/.m2/repository/com/testautomationguru/pdfutil/pdf-util/0.0.3/pdf-util-0.0.3.jar:/Users/neethkunjappa/.m2/repository/org/apache/pdfbox/pdfbox/2.0.8/pdfbox-2.0.8.jar:/Users/neethkunjappa/.m2/repository/org/apache/pdfbox/fontbox/2.0.8/fontbox-2.0.8.jar:/Users/neethkunjappa/.m2/repository/org/apache/pdfbox/pdfbox-tools/2.0.8/pdfbox-tools-2.0.8.jar:/Users/neethkunjappa/.m2/repository/org/apache/pdfbox/pdfbox-debugger/2.0.8/pdfbox-debugger-2.0.8.jar:/Users/neethkunjappa/.m2/repository/javax/mail/mail/1.4.3/mail-1.4.3.jar:/Users/neethkunjappa/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/neethkunjappa/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/neethkunjappa/.m2/repository/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar:/Users/neethkunjappa/.m2/repository/org/springframework/spring-jcl/5.2.1.RELEASE/spring-jcl-5.2.1.RELEASE.jar:/Users/neethkunjappa/.m2/repository/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar:/Users/neethkunjappa/.m2/repository/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar:/Users/neethkunjappa/.m2/repository/com/sikulix/sikulixapi/1.1.0/sikulixapi-1.1.0.jar:/Users/neethkunjappa/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/neethkunjappa/.m2/repository/com/melloware/jintellitype/1.3.7/jintellitype-1.3.7.jar:/Users/neethkunjappa/.m2/repository/jxgrabkey/jxgrabkey/1.0/jxgrabkey-1.0.jar:/Users/neethkunjappa/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar:/Users/neethkunjappa/.m2/repository/com/nativelibs4java/bridj/0.6.2/bridj-0.6.2.jar:/Users/neethkunjappa/.m2/repository/com/sikulix/sikulixlibsmac/1.1.0/sikulixlibsmac-1.1.0.jar:/Users/neethkunjappa/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/neethkunjappa/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/neethkunjappa/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/neethkunjappa/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/neethkunjappa/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/neethkunjappa/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/Users/neethkunjappa/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/neethkunjappa/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/neethkunjappa/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/neethkunjappa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/neethkunjappa/Documents/zeidler"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.util.Collections.useLegacyMergeSort" value="true"/>
+    <property name="idea.version2020.1.3" value="true"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_252-b09"/>
+    <property name="user.name" value="neethkunjappa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="skipTests" value="false"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="localRepository" value="/Users/neethkunjappa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/hw/wv59gh3j5tz4dvc179r2_0x80000gq/T/"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="user.dir" value="/Users/neethkunjappa/Documents/zeidler"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/neethkunjappa/Documents/zeidler"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="environment" value="conf"/>
+    <property name="java.library.path" value="/Users/neethkunjappa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.ext.dirs" value="/Users/neethkunjappa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="addComputer" classname="com.zeidler.homepage.homepageTest" time="5.842">
+    <failure message="expected [Done! Computer  has been created] but found [Computer name&#10;Required]" type="java.lang.AssertionError">java.lang.AssertionError: 
+expected [Done! Computer  has been created] but found [Computer name
+Required]
+	at com.zeidler.homepage.homepageTest.addComputer(homepageTest.java:64)
+</failure>
+    <system-out><![CDATA[The env value is : conf
+Download file path : /Users/neethkunjappa/Documents/zeidler/download
+mac os x
+2020-08-03 13:36:45 INFO  [main] (BrowserDriverFactory.java:99) - browserchrome
+2020-08-03 13:36:45 INFO  [main] (BrowserDriverFactory.java:106) - Create driver: chrome
+2020-08-03 13:36:47 INFO  [main] (BrowserDriverFactory.java:131) - Browser version is : 84.0.4147.105
+2020-08-03 13:36:47 INFO  [main] (BaseTest.java:75) - Browser resolution:  (1440, 819)
+2020-08-03 13:36:47 INFO  [main] (BaseTest.java:77) - Current Screen resolution : w : 1440 h : 900
+2020-08-03 13:36:47 INFO  [main] (BaseTest.java:86) - Browser resolution:  (1440, 819)
+2020-08-03 13:36:47 INFO  [main] (TestListener.java:75) - [TEST homepageTest STARTED]
+The path of csv is src/test/resources/dataproviders/homepageTest/addComputer.csv
+2020-08-03 13:36:47 INFO  [main] (homepageTest.java:29) - Starting Test.
+2020-08-03 13:36:47 INFO  [main] (homepageTest.java:31) - The env value is: conf
+2020-08-03 13:36:49 INFO  [main] (TestListener.java:53) - [Starting addComputer]
+2020-08-03 13:36:49 INFO  [main] (homepageTest.java:50) - 6
+2020-08-03 13:36:49 INFO  [main] (homepageTest.java:57) - **** Started : add computers ***
+2020-08-03 13:36:49 INFO  [main] (homepageTest.java:61) - total number of computers in the system613
+2020-08-03 13:36:52 INFO  [main] (HomePage.java:65) - No introduced date
+2020-08-03 13:36:52 INFO  [main] (HomePage.java:70) - No discontinued date
+2020-08-03 13:36:52 INFO  [main] (HomePage.java:75) - No company name 
+2020-08-03 13:36:53 INFO  [main] (HomePage.java:84) - The banner existsComputer name
+Required
+2020-08-03 13:36:53 INFO  [main] (TestListener.java:110) - [Test addComputer failed]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43305
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1596442006.086][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Aug 03, 2020 1:36:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="editComputer" classname="com.zeidler.homepage.homepageTest" time="0.003"/>
+  <testcase name="searchComputer" classname="com.zeidler.homepage.homepageTest" time="0.001"/>
+</testsuite>
